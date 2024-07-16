@@ -1,7 +1,6 @@
 
 import React, { useState , useEffect } from 'react';
 import './Quizbox.css';
-import { useNavigate } from 'react-router-dom';
 
 export default function Quizbox() {
 
