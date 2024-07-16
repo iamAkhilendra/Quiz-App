@@ -1,0 +1,47 @@
+:root {
+    --footer-height: 2.4rem;
+}
+
+#my-footer {
+    width: 100%;
+    height: var(--footer-height);
+
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+
+    font-family: var(--my-font);
+    font-size: 0.85rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-footer > p {
+    margin: 0;
+    display: inline;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    #my-footer {
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    :root {
+        --footer-height: 7.2cqi;
+    }
+    
+    #my-footer {
+    
+        box-sizing: border-box;
+        padding: 1cqi 2cqi;
+
+        height: auto;
+
+        font-size: 3cqi;
+    }
+}
+

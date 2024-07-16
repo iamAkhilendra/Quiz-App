@@ -1,0 +1,25 @@
+:root {
+    --navbar-height: 3.5rem;
+}
+
+#my-navbar {
+    width: 100%;
+    height: var(--navbar-height);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+#navbar-logo{
+    height: 85%;
+}
+
+@media screen and (max-width: 321px) {
+    :root{
+        --navbar-height: 10cqi;
+    }
+}
