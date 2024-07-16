@@ -178,7 +178,7 @@ export default function Quizbox() {
                             return  <div id="error-occured-display-box">
                                         <p>Error occured while fetching questions!!</p>
                                         <div id="error-occured-buttons-section">
-                                            <button id="cancel-on-error-occured" className="buttons" onClick={cancelFromErrorOccured}>Cancel</button>
+                                            <button id="cancel-on-error-occured" className="buttons" onClick={cancelFromErrorOccured} style={{display: (questionsList.length == 0 ? "none" : "block")}}>Cancel</button>
                                             <button id="try-again-on-error-occured" className="buttons" onClick={tryAgain}>Try Again</button>
                                         </div>
                                     </div>
